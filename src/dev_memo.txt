@@ -1,0 +1,3 @@
+
+OpenAI 利用マニュアル。
+https://platform.openai.com/docs/api-reference/models/retrieve
