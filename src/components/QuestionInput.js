@@ -1,6 +1,5 @@
 // src/components/QuestionInput.js
 import React, { useState } from 'react';
-import SubmitButton from './SubmitButton';
 
 function QuestionInput({ onQuestionSubmit }) {
     const [question, setQuestion] = useState('');
@@ -26,9 +25,10 @@ function QuestionInput({ onQuestionSubmit }) {
                     onChange={handleChange}
                 />
             </div>
-            <SubmitButton />
+            <button type="submit" className="btn btn-primary">Submit</button>
         </form>
     );
 }
 
 export default QuestionInput;
+
